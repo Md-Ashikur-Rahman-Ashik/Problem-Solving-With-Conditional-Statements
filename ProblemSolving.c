@@ -37,3 +37,36 @@
 
 //     return 0;
 // }
+
+// #include <stdio.h>
+
+// int main()
+// {
+//     int num, result = 0, i;
+
+//     scanf("%d", &num);
+
+//     for (i = 0; result < 2; i++)
+//     {
+//         /* code */
+//         if (num / 10 != 0)
+//         {
+//             num = num / 10;
+//         }
+//         else
+//         {
+//             if (num % 2 == 0)
+//             {
+//                 /* code */
+//                 printf("EVEN");
+//                 result = 2;
+//             }
+//             else
+//             {
+//                 printf("ODD");
+//                 result = 2;
+//             }
+//         }
+//     }
+//     return 0;
+// }

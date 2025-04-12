@@ -98,3 +98,35 @@
 
 //     return 0;
 // }
+
+// #include <stdio.h>
+// #include <ctype.h>
+
+// int main()
+// {
+//     char our_input;
+
+//     scanf("%c", &our_input);
+
+//     int digit_check = isdigit(our_input);
+
+//     if (digit_check > 0)
+//     {
+//         printf("IS DIGIT");
+//     }
+//     else
+//     {
+//         int lower_check = islower(our_input);
+
+//         printf("ALPHA\n");
+
+//         if (lower_check > 0)
+//         {
+//             printf("IS SMALL");
+//         }
+//         else
+//         {
+//             printf("IS CAPITAL");
+//         }
+//     }
+// }

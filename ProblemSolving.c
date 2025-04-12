@@ -70,3 +70,31 @@
 //     }
 //     return 0;
 // }
+
+// #include <stdio.h>
+// #include <ctype.h>
+
+// int main()
+// {
+//     char character;
+//     int result;
+
+//     scanf("%c", &character);
+
+//     int low = islower(character);
+//     // printf("%d", low);
+
+//     if (low == 2)
+//     {
+//         /* code */
+//         result = toupper(character);
+//     }
+//     else
+//     {
+//         result = tolower(character);
+//     }
+
+//     printf("%c", result);
+
+//     return 0;
+// }
